@@ -1,0 +1,48 @@
+.homepage {
+    border-style: none solid none solid;
+    border-color: #AFAFAF;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: 100px 0 50px 0;
+}
+
+
+
+.homepage-banner {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+    height: 400px;
+}
+
+.latest-sermons, .latest-quotes {
+    margin-top: 200px;
+}
+
+.text-containers {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Inter';
+}
+
+.carousel {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.carousel > li {
+    list-style-type: none;
+    background-color: black;
+}
+
+.carousel-banner {
+    background-color: grey;
+    height: 200px;
+}
+
+.video-container {
+    background-color: red;
+}

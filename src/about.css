@@ -1,0 +1,57 @@
+.aboutpage {
+    border-style: none solid none solid;
+    border-color: #AFAFAF;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter';
+}
+
+.heading-banner {
+    background-color: #FFE7E7;
+    width: 100%;
+    text-align: center;
+    padding: 0 0 100px 0;
+}
+
+.image-of-mark {
+    border-radius: 90px;
+    margin: -5rem auto 5rem;
+}
+
+.about-banner-right {
+    background-color: #E3CE5F;
+    width: 60%;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-radius: 20px 0 0 20px;
+    box-shadow: 0 10px #b5a451;
+}
+
+.about-banner-left {
+    background-color: #CAA6A6;
+    width: 60%;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-radius: 0 20px 20px 0;
+    box-shadow: 0 10px #937979;
+}
+
+.banner-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 15px 0 15px 0;
+}
+
+.text-container {
+    padding-left: 15px;
+}
+
