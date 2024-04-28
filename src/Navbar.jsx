@@ -13,7 +13,7 @@ function Navbar() {
                     <li><NavLink className="navbar-item" to='/Sermons'>Sermons</NavLink></li>
                     <li><NavLink className="navbar-item" to='/Quotes'>Quotes</NavLink></li>
                     <li><NavLink className='navbar-item' to='/About'>About</NavLink></li>
-                    <li className="navbar-item">Log in/Sign up</li>
+                    <li ><NavLink className="navbar-item" to="/login-signup">Log In/Sign Up</NavLink></li>
                 </ul>
             </nav>
         </>

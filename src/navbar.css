@@ -30,5 +30,5 @@ nav > ul > li {
 nav > ul > li:hover, .navbar-item:hover, .navbar-logo:hover {
     transform: scale(1.1);
     color: white;
-
+    cursor:pointer;
 }

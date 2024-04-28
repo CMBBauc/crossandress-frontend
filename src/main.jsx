@@ -8,6 +8,7 @@ import HomePage from './HomePage.jsx'
 import About from './About.jsx'
 import Sermons from './Sermons.jsx'
 import Quotes from './Quotes.jsx'
+import EnterUser from './EnterUser.jsx'
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
         path: '/About',
         element: <About/>,
+      },
+      {
+        path: '/login-signup',
+        element: <EnterUser />,
       },
     ]
   }
